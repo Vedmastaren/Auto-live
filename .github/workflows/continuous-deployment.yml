@@ -22,7 +22,7 @@ jobs:
 
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.4
-      with:
+      with: # Alla secrets är tillagda i repots settings, Secrets and variables och Actions
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
