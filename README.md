@@ -1,2 +1,2 @@
 # Auto-live
-A test repo for CD continious development exercise with github actions
+A test repo for CD continuous development exercise with github actions
